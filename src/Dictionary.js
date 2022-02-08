@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Results from "./Results"
+import Results from "./Results";
+import Signature from "./Signature";
 import "./Dictionary.css";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState(" ");
-  const [results, setResults] = useState(null)
+  const [results, setResults] = useState(null);
 
   function handelResponse(response) {
     setResults(response.data[0]);
@@ -29,7 +30,8 @@ export default function Dictionary() {
         <input type="search" autoFocus={true} onChange={handelChange} />
         <input type="submit" value="Search" />
       </form>
-      <Results results={results}/>
+      <Results results={results} />
+      <Signature />
     </div>
   );
 }
