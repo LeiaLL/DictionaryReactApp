@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results"
 import "./Dictionary.css";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState(" ");
+  const [results, setResults] = useState(null)
 
   function handelResponse(response) {
-    console.log(response.data[0]);
+    setResults(response.data[0]);
   }
 
   function handelSubmit(event) {
@@ -27,6 +29,7 @@ export default function Dictionary() {
         <input type="search" autoFocus={true} onChange={handelChange} />
         <input type="submit" value="Search" />
       </form>
+      <Results results={results}/>
     </div>
   );
 }
