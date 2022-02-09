@@ -2,8 +2,12 @@ button {
   background-color: lightpink;
   border-radius: 15px !important;
   padding: 10px 22px;
-  margin-top: 10px;
+
   border: 1px solid #ddd;
+}
+
+.Phonetics {
+  margin-top: 17px;
 }
 
 .text {
