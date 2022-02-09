@@ -12,3 +12,7 @@ div.example {
   font-weight: bold;
   margin-top: 15px;
 }
+
+h3 {
+  font-weight: bolder !important;
+}
