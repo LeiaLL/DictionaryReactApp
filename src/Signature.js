@@ -18,11 +18,10 @@ export default function Signature() {
         rel="noreferrer"
       >
         {" "}
-        Lea Lüders{" "}
-      </a>
-      and hosted on
+        Lea Lüders
+      </a>{" "}
+      and hosted on{" "}
       <a href="https://www.netlify.com" target="_blank" rel="noreferrer">
-        {" "}
         Netlify{" "}
       </a>
     </div>

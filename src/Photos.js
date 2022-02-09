@@ -2,7 +2,6 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  console.log(props);
   if (props.photos) {
     return (
       <section className="Photos">

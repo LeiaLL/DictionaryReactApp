@@ -16,7 +16,6 @@ export default function Dictionary(props) {
   }
 
   function handelPexelsResponse(response) {
-    console.log(response);
     setPhotos(response.data.photos);
   }
 
@@ -60,7 +59,7 @@ export default function Dictionary(props) {
           </form>
           <div className="suggestions">
             {" "}
-            Suggested keywords: sunset, yoga, wine, poppy
+            Suggested keywords: sunset, ocean, yoga, savanna
           </div>
         </section>
 
@@ -81,7 +80,7 @@ export default function Dictionary(props) {
           </form>
           <div className="suggestions">
             {" "}
-            Suggested keywords: sunset, ocean, yoga, wine
+            Suggested keywords: sunset, ocean, yoga, savanna
           </div>
         </section>
         ;

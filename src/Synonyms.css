@@ -1,10 +1,10 @@
-ul {
+.Synonyms ul {
   padding-left: 0 !important ;
   padding-right: 40px;
   margin: 5px 0 !important;
   display: inline-block;
 }
 
-li {
+.Synonyms li {
   list-style: none;
 }

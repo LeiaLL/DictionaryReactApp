@@ -1,18 +1,17 @@
-div.example {
+.Meaning h3 {
+  font-weight: bolder !important;
+}
+.Meaning div.example {
   opacity: 0.7;
   font-style: italic;
   margin: 10px 0;
 }
 
-.singleMeaning {
+.Meaning .singleMeaning {
   margin: 30px 0;
 }
 
-.similar {
+.Meaning .similar {
   font-weight: bold;
   margin-top: 15px;
-}
-
-h3 {
-  font-weight: bolder !important;
 }

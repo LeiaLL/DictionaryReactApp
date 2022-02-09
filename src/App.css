@@ -1,14 +1,19 @@
-.container {
-  margin: 30px auto;
-}
-
 .App {
   background-color: #f9f8fe;
+}
+
+.App .container {
+  margin: 30px auto;
 }
 
 .Signature {
   text-align: center;
 }
+
+.Signature a {
+  color: #07a0b1;
+}
+
 section {
   background-color: #fff;
   padding: 30px;
