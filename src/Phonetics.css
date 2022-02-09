@@ -9,9 +9,15 @@ button {
 .Phonetics {
   margin-top: 17px;
 }
-
+.audio {
+  position: relative;
+  top: 10px;
+  height: 50px;
+}
 .text {
   margin-left: 15px;
   opacity: 0.7;
   font-size: 18px;
+  position: relative;
+  top: -8px;
 }
