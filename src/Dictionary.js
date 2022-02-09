@@ -24,11 +24,19 @@ export default function Dictionary() {
   }
 
   return (
-    <div>
+    <div className="Dictionary">
       <h1> Dictionary</h1>
-      <form onSubmit={handelSubmit}>
-        <input type="search" autoFocus={true} onChange={handelChange} />
-      </form>
+      <section>
+        <div className="question"> What word do you want to look up?</div>
+        <form onSubmit={handelSubmit}>
+          <input type="search" autoFocus={true} onChange={handelChange} />
+        </form>
+        <div className="suggestions">
+          {" "}
+          Suggested keywords: sunset, yoga, wine, poppy
+        </div>
+      </section>
+
       <Results results={results} />
       <Signature />
     </div>

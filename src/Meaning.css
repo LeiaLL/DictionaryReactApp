@@ -1,0 +1,14 @@
+div.example {
+  opacity: 0.7;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.singleMeaning {
+  margin: 30px 0;
+}
+
+.similar {
+  font-weight: bold;
+  margin-top: 15px;
+}

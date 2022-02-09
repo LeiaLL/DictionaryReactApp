@@ -1,0 +1,13 @@
+button {
+  background-color: lightpink;
+  border-radius: 15px !important;
+  padding: 10px 22px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.text {
+  margin-left: 15px;
+  opacity: 0.7;
+  font-size: 18px;
+}

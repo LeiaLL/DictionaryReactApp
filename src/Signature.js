@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Signature() {
   return (
-    <div className="signature">
+    <div className="Signature">
       Open-source code on{" "}
       <a
         href="https://github.com/LeiaLL/DictionaryReactApp.git"
