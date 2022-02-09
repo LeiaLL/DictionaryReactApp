@@ -28,7 +28,6 @@ export default function Dictionary() {
       <h1> Dictionary</h1>
       <form onSubmit={handelSubmit}>
         <input type="search" autoFocus={true} onChange={handelChange} />
-        <input type="submit" value="Search" />
       </form>
       <Results results={results} />
       <Signature />
