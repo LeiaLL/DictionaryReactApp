@@ -13,7 +13,7 @@ export default function Signature() {
       </a>{" "}
       by{" "}
       <a
-        href="https://www.linkedin.com/in/lea-lüders-71866719b/s"
+        href="https://lea-lueders.netlify.app"
         target="_blank"
         rel="noreferrer"
       >
